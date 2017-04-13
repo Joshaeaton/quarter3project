@@ -4,30 +4,13 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-/*
-Developer: Jared Pisano
-Table of Contents
-Header: Logo, Band Image
-Main Content: Band Bio, band Members, Discography
-Footer: Copywrite info
-Color Palette:
-#33738F - Light Blue
-#D5852E - Orange
-#C1202F - Red
-#1F3743 - Navy Blue
-#BBCEB8 - Grey
-*/
 html {
-  background-image: url(images/hank.jpg);
-  font-family: Impact, sans-serif;
+  font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  font-size: 10px;
--webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -ms-text-size-adjust: 100%;
 }
 body {
-  width: 80%;
-  margin: auto;
+  margin: 0;
 }
 article,
 aside,
@@ -1093,11 +1076,16 @@ th {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+html {
+  font-size: 10px;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 body {
-  font-family: Impact, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 2.5em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
   line-height: 1.42857143;
-  color: #C1202F;
+  color: #333;
   background-color: #fff;
 }
 input,
